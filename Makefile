@@ -3,7 +3,7 @@ LIB = libStatic.a
 CXX = g++
 SRC = main.cpp reminder.cpp
 OBJ = $(SRC:.cpp=.o)
-FLAGS = -Wall -Wextra -Werror $(CXXFLAGS)
+FLAGS = -Wall -Wextra -Werror
 RM = /bin/rm -f
 
 .PHONY: all clean re
